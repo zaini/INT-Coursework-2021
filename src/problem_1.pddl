@@ -91,6 +91,9 @@
 
 	; Roomba initial position:
 	(at roomba x0y0)
+
+	(=(battery-amount roomba) 100)
+	(=(trash-amount roomba) 0)
 	
 )
 
