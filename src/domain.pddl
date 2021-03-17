@@ -28,6 +28,7 @@
 (:functions ;todo: define numeric functions here
 	(battery-amount ?roomba - roomba)
 	(trash-amount ?roomba - roomba)
+	;(steps)
 )
 
 ; Actions:
