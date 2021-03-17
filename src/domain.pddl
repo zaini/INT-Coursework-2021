@@ -33,14 +33,14 @@
 ; Actions:
 (:durative-action moveAndClean
 	:parameters (?roomba - roomba ?from - location ?to - location)
-	:duration (= ?duration 50)
+	:duration (= ?duration 10)
 	:condition (and 
-		(at start (and (at ?roomba ?from) (is-empty ?to) (is-dirty ?from) (> (battery-amount ?roomba) 10) (< (trash-amount ?roomba) 90)))
+		(at start (and (at ?roomba ?from) (is-empty ?to) (is-dirty ?from) (> (battery-amount ?roomba) 15) (< (trash-amount ?roomba) 90)))
 		(over all (and (has-path ?from ?to)))
 	)
 	:effect (and 
 		(at start (and (not (at ?roomba ?from)) (not (is-empty ?to))))
-		(at end (and (at ?roomba ?to) (is-empty ?from) (not (is-dirty ?from)) (is-clean ?from) (decrease (battery-amount ?roomba) 10) (increase (trash-amount ?roomba) 10)))
+		(at end (and (at ?roomba ?to) (is-empty ?from) (not (is-dirty ?from)) (is-clean ?from) (decrease (battery-amount ?roomba) 15) (increase (trash-amount ?roomba) 10)))
 	)
 )
 
@@ -59,7 +59,7 @@
 
 (:durative-action get-charge
 	:parameters (?roomba - roomba ?currentLocation - location)
-	:duration (= ?duration 1)
+	:duration (= ?duration 3)
 	:condition (and 
 		(at start (and (is-charger ?currentLocation)))
 		(over all (and  (at ?roomba ?currentLocation)))
