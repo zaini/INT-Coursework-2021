@@ -3,7 +3,7 @@
 (define (domain roomba)
 
 ;remove requirements that are not needed
-(:requirements :durative-actions :numeric-fluents :typing :conditional-effects :negative-preconditions)
+(:requirements :durative-actions :numeric-fluents :typing)
 
 (:types
 	roomba
