@@ -64,7 +64,7 @@
 		(over all (and  (at ?roomba ?currentLocation)))
 	)
 	:effect (and 
-		(increase (battery-amount ?roomba) 1)
+		(at end (and (increase (battery-amount ?roomba) 1)))
 	)
 )
 
@@ -76,7 +76,7 @@
 		(over all (and  (at ?roomba ?currentLocation)))
 	)
 	:effect (and 
-		(decrease (trash-amount ?roomba) 1)
+		(at end (and (decrease (trash-amount ?roomba) 1)))
 	)
 )
 
