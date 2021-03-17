@@ -19,6 +19,7 @@
 	(has-path ?from - location ?to - location)
 	(is-empty ?location - location)
 	(is-dirty ?location - location)
+	(is-clean ?location - location)
 	(is-charger ?location - location)
 	(is-trashplace ?location - location)
 )
@@ -39,7 +40,7 @@
 	)
 	:effect (and 
 		(at start (and (not (at ?roomba ?from)) (not (is-empty ?to))))
-		(at end (and (at ?roomba ?to) (is-empty ?from) (not (is-dirty ?from)) (decrease (battery-amount ?roomba) 10) (increase (trash-amount ?roomba) 10)))
+		(at end (and (at ?roomba ?to) (is-empty ?from) (not (is-dirty ?from)) (is-clean ?from) (decrease (battery-amount ?roomba) 10) (increase (trash-amount ?roomba) 10)))
 	)
 )
 

@@ -73,11 +73,14 @@
 
 	(is-dirty x0y1)
 	; x1y1 is occupied
+	(is-clean x1y1)
 	(is-dirty x2y1)
 
 	; x0y2 is charger
+	(is-clean x0y2)
 	(is-dirty x1y2)
 	; x2y2 is trash place
+	(is-clean x2y2)
 
 	
 	; Charger:
@@ -93,15 +96,15 @@
 
 (:goal (and
 	; All positions not dirty:
-	(not (is-dirty x0y0))
-	(not (is-dirty x1y0))
-	(not (is-dirty x2y0))
-	(not (is-dirty x0y1))
-	(not (is-dirty x1y1))
-	(not (is-dirty x2y1))
-	(not (is-dirty x0y2))
-	(not (is-dirty x1y2))
-	(not (is-dirty x2y2))
+	(is-clean x0y0)
+	(is-clean x1y0)
+	(is-clean x2y0)
+	(is-clean x0y1)
+	(is-clean x1y1)
+	(is-clean x2y1)
+	(is-clean x0y2)
+	(is-clean x1y2)
+	(is-clean x2y2)
 ))
 
 ;un-comment the following line if metric is needed
