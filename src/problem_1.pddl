@@ -1,4 +1,9 @@
 (define (problem roomba_problem1) (:domain roomba)
+
+; Problem file:
+; t | _ | c
+; _ | O | _ 
+; x | _ | _
 (:objects 
 	x0y0 - location
 	x1y0 - location
