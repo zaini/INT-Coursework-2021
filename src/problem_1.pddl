@@ -95,7 +95,7 @@
 	(=(battery-amount roomba) 100)
 	(=(trash-amount roomba) 0)
 	
-	;(= (total-cost) 0)
+	(= (steps) 0)
 )
 
 (:goal (and
@@ -111,5 +111,5 @@
 	(is-clean x2y2)
 ))
 
-;(:metric minimize (steps))
+(:metric minimize (steps))
 )

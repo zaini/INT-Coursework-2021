@@ -28,7 +28,7 @@
 (:functions ;todo: define numeric functions here
 	(battery-amount ?roomba - roomba)
 	(trash-amount ?roomba - roomba)
-	;(steps)
+	(steps)
 )
 
 ; Actions:
@@ -41,7 +41,7 @@
 	)
 	:effect (and 
 		(at start (and (not (at ?roomba ?from)) (not (is-empty ?to))))
-		(at end (and (at ?roomba ?to) (is-empty ?from) (not (is-dirty ?from)) (is-clean ?from) (decrease (battery-amount ?roomba) 15) (increase (trash-amount ?roomba) 10)))
+		(at end (and (at ?roomba ?to) (is-empty ?from) (not (is-dirty ?from)) (is-clean ?from) (decrease (battery-amount ?roomba) 15) (increase (trash-amount ?roomba) 10) (increase (steps) 1)))
 	)
 )
 
@@ -54,7 +54,7 @@
 	)
 	:effect (and 
 		(at start (and (not (at ?roomba ?from)) (not (is-empty ?to))))
-		(at end (and (at ?roomba ?to) (is-empty ?from) (decrease (battery-amount ?roomba) 10)))
+		(at end (and (at ?roomba ?to) (is-empty ?from) (decrease (battery-amount ?roomba) 10) (increase (steps) 1)))
 	)
 )
 
