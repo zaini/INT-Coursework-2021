@@ -63,7 +63,7 @@
 	:duration (= ?duration 3)
 	:condition (and 
 		(at start (and (is-charger ?currentLocation)))
-		(over all (and  (at ?roomba ?currentLocation) (< (battery-amount ?roomba) 100)))
+		(over all (and  (at ?roomba ?currentLocation)))
 	)
 	:effect (and 
 		(increase (battery-amount ?roomba) (* 2 #t))
@@ -75,7 +75,7 @@
 	:duration (= ?duration 1)
 	:condition (and 
 		(at start (and (is-trashplace ?currentLocation)))
-		(over all (and  (at ?roomba ?currentLocation) (> (trash-amount ?roomba) 0)))
+		(over all (and  (at ?roomba ?currentLocation)))
 	)
 	:effect (and 
 		(decrease (trash-amount ?roomba) (* 2 #t))
