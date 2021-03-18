@@ -62,11 +62,11 @@
 	:parameters (?roomba - roomba ?currentLocation - location)
 	:duration (= ?duration 3)
 	:condition (and 
-		(at start (and (is-charger ?currentLocation) (at ?roomba ?currentLocation)))
-		;(over all (and  (at ?roomba ?currentLocation)))
+		(at start (and (is-charger ?currentLocation)))
+		(over all (and  (at ?roomba ?currentLocation) (< (battery-amount ?roomba) 100)))
 	)
 	:effect (and 
-		(at end (and (increase (battery-amount ?roomba) 1)))
+		(and (increase (battery-amount ?roomba) (* 1 #t)))
 	)
 )
 
@@ -74,11 +74,11 @@
 	:parameters (?roomba - roomba ?currentLocation - location)
 	:duration (= ?duration 1)
 	:condition (and 
-		(at start (and (is-trashplace ?currentLocation) (at ?roomba ?currentLocation)))
-		;(over all (and  (at ?roomba ?currentLocation)))
+		(at start (and (is-trashplace ?currentLocation)))
+		(over all (and  (at ?roomba ?currentLocation) (> (trash-amount ?roomba) 0)))
 	)
 	:effect (and 
-		(at end (and (decrease (trash-amount ?roomba) 1)))
+		(and (decrease (trash-amount ?roomba) (* 1 #t)))
 	)
 )
 
