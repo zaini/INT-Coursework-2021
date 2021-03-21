@@ -1,8 +1,8 @@
 ; X__
-; T__
-; TO_
+; T_T
+; ___
 
-(define (problem roomba_problem3)
+(define (problem roomba_problem5)
 
     (:domain roomba)
 
@@ -36,11 +36,12 @@
         (is-empty x1y1)
         (is-dirty x1y1)
         (is-empty x2y1)
-        (is-dirty x2y1)
+        (is-trashplace x2y1)
+        (is-clean x2y1)
         (is-empty x0y2)
-        (is-trashplace x0y2)
-        (is-clean x0y2)
-        (is-clean x1y2)
+        (is-dirty x0y2)
+        (is-empty x1y2)
+        (is-dirty x1y2)
         (is-empty x2y2)
         (is-dirty x2y2)
         (has-path x0y0 x1y0)
