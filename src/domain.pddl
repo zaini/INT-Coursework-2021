@@ -35,12 +35,12 @@
 		:parameters (?roomba - roomba ?from - location ?to - location)
 		:duration (= ?duration 10)
 		:condition (and
-			(at start (and (at ?roomba ?from) (is-empty ?to) (is-dirty ?from) (> (battery-amount ?roomba) 15) (< (trash-amount ?roomba) 90)))
+			(at start (and (at ?roomba ?from) (is-empty ?to) (is-dirty ?from) (> (battery-amount ?roomba) 5) (< (trash-amount ?roomba) 95)))
 			(over all (and (has-path ?from ?to)))
 		)
 		:effect (and
 			(at start (and (not (at ?roomba ?from)) (not (is-empty ?to))))
-			(at end (and (at ?roomba ?to) (is-empty ?from) (not (is-dirty ?from)) (is-clean ?from) (decrease (battery-amount ?roomba) 15) (increase (trash-amount ?roomba) 10) (increase (steps) 1)))
+			(at end (and (at ?roomba ?to) (is-empty ?from) (not (is-dirty ?from)) (is-clean ?from) (decrease (battery-amount ?roomba) 5) (increase (trash-amount ?roomba) 5) (increase (steps) 1)))
 		)
 	)
 
@@ -48,12 +48,12 @@
 		:parameters (?roomba - roomba ?from - location ?to - location)
 		:duration (= ?duration 5)
 		:condition (and
-			(at start (and (at ?roomba ?from) (is-empty ?to) (> (battery-amount ?roomba) 10)))
+			(at start (and (at ?roomba ?from) (is-empty ?to) (> (battery-amount ?roomba) 1)))
 			(over all (and (has-path ?from ?to)))
 		)
 		:effect (and
 			(at start (and (not (at ?roomba ?from)) (not (is-empty ?to))))
-			(at end (and (at ?roomba ?to) (is-empty ?from) (decrease (battery-amount ?roomba) 10) (increase (steps) 1)))
+			(at end (and (at ?roomba ?to) (is-empty ?from) (decrease (battery-amount ?roomba) 1) (increase (steps) 1)))
 		)
 	)
 
