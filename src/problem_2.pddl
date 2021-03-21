@@ -38,6 +38,7 @@
 		(is-dirty x2y1)
 		(at roomba x0y2)
 		(is-empty x0y2)
+		(is-dirty x0y2)
 		(is-empty x1y2)
 		(is-dirty x1y2)
 		(is-empty x2y2)
