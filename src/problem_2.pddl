@@ -2,7 +2,7 @@
 ; _O_
 ; X__
 
-(define (problem roomba_problem1)
+(define (problem roomba_problem2)
 
 	(:domain roomba)
 
