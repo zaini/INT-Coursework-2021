@@ -1,24 +1,24 @@
-;|  T|   |   |  X|  C|  O|  O|  O|  O|  O|  X|   |   |   |   |  O|  T|   |  X|  C
-;|   |   |   |   |  O|  O|  O|  O|  O|  O|   |   |   |   |   |  O|  O|  O|   |   
-;|   |  O|   |   |   |   |  O|  T|   |   |   |   |   |   |   |  O|   |   |   |   
-;|  C|   |   |   |   |  O|  O|   |   |   |   |   |   |   |   |  O|   |   |   |   
-;|  O|   |   |   |  O|  O|  O|  O|  O|  O|  O|   |   |   |  O|  O|   |  O|  O|  O
-;|  C|  X|   |   |   |   |   |   |  O|  X|  X|   |  O|   |   |   |   |   |  X|  C
-;|  C|  X|  O|   |   |   |   |   |   |   |   |   |   |   |   |  O|   |   |  X|  C
-;|  C|  X|   |   |   |  O|   |   |   |   |   |   |  O|   |   |   |   |   |  X|  C
-;|   |  O|  O|   |   |   |   |   |  O|  O|  O|   |   |   |   |   |   |  O|  O|  O
-;|  T|  O|  O|   |   |   |   |  O|  O|  O|  O|  O|   |   |   |   |  T|  O|  O|   
-;|  X|   |   |   |   |   |  O|  O|  O|  O|  O|  O|  O|   |   |  O|   |   |   |  X
-;|   |  O|  O|   |  O|   |  O|  O|  O|  O|  O|  O|  O|   |   |   |   |  O|  O|  O
-;|  T|  O|  O|   |   |   |  O|  O|  O|  O|  O|  O|  O|   |   |   |  T|  O|  O|   
-;|   |   |   |   |   |   |   |  O|  O|  O|  O|  O|   |   |   |   |   |   |   |   
-;|  X|  O|  O|   |   |   |   |   |  O|  O|  O|   |   |   |  O|   |   |  O|  O|  O
-;|  T|  O|  O|   |   |   |   |   |   |   |   |   |   |   |   |   |  T|  O|  O|   
-;|  X|   |   |   |   |   |   |  O|   |   |   |   |   |   |   |   |   |   |   |  X
-;|  O|  O|  O|  O|  O|  O|   |   |   |   |   |   |   |   |   |   |   |   |   |  T
-;|  O|  O|  O|  O|  O|  O|  X|  X|  X|  O|  C|  O|  C|  O|  C|  O|  C|  O|  C|  O
-;|  O|  O|  O|  O|  O|  O|  T|  T|  T|  O|  O|  O|  O|  O|  O|  O|  O|  O|  O|  O
-; 
+;|  X|   |   |  C|   |  T|   |   |   |  O|  O|   |   |   |  C|   |   |   |   |  X
+;|   |   |   |   |  T|   |   |   |  O|  T|   |  O|   |   |   |   |   |  T|   |  X
+;|   |  C|   |  T|   |   |   |   |  O|   |   |  O|   |  T|   |  C|   |  X|   |  X
+;|   |  C|   |   |   |  C|  T|   |  O|   |   |  O|   |   |  C|   |  T|   |   |  X
+;|   |   |  C|   |   |   |   |   |  O|   |   |  O|   |   |   |  T|   |  T|   |  X
+;|   |   |   |   |   |   |  O|  O|  O|   |   |  O|   |  T|   |   |   |   |   |  X
+;|  T|   |  T|   |   |  O|   |   |  O|   |   |  O|  O|  O|   |   |  X|   |  T|   
+;|   |   |   |   |   |  O|   |   |  O|   |   |  O|   |   |  O|   |   |   |   |   
+;|   |  O|  O|  O|   |  O|   |  C|  O|   |   |  O|   |   |  O|  O|   |   |  C|   
+;|   |  O|   |   |  O|  O|   |   |   |   |   |   |   |  T|  O|   |  O|   |   |   
+;|   |  O|   |  T|   |  O|   |   |  C|   |   |   |  C|   |   |   |  O|   |   |   
+;|   |   |  O|   |   |  O|   |   |   |   |  C|   |   |   |  T|   |  O|   |   |   
+;|   |   |  O|   |   |   |   |   |   |   |   |   |   |  T|   |   |  O|  C|   |  C
+;|  C|   |   |  O|   |  T|   |   |  T|  T|   |   |  T|   |   |   |  O|   |   |  C
+;|   |  C|   |  O|   |   |   |   |   |   |  T|   |   |   |   |   |  O|   |   |   
+;|   |   |   |  O|   |  T|   |  C|  C|   |   |  C|   |   |   |   |  O|   |   |   
+;|   |  C|   |   |  O|   |   |   |   |   |   |   |   |   |   |  O|   |  X|   |   
+;|   |   |   |   |  O|  X|  X|  X|  X|  X|  X|  X|  X|  X|  O|   |  X|   |   |   
+;|   |  C|   |   |   |  O|  O|  O|  O|  O|  O|  O|  O|  O|  O|   |   |   |  C|   
+;|   |   |   |  C|  C|   |   |   |   |   |   |   |   |   |   |  C|  C|   |   |   
+; Teapot pixel art :)		(jk, look closely hehe)
 
 (define (problem roomba_problem1)
   (:domain roomba)
@@ -443,6 +443,7 @@
     roomba17 - roomba
     roomba18 - roomba
     roomba19 - roomba
+    roomba20 - roomba
   )
 
   (:init
@@ -1968,52 +1969,52 @@
     (has-path x19y19 x18y19)
     (has-path x19y19 x19y18)
 
-    ; x0y0 occupied by some obstruction
-    ; x1y0 occupied by some obstruction
-    ; x2y0 occupied by some obstruction
-    ; x3y0 occupied by some obstruction
-    ; x4y0 occupied by some obstruction
-    ; x5y0 occupied by some obstruction
+    (is-empty x0y0)
+    (is-empty x1y0)
+    (is-empty x2y0)
+    (is-empty x3y0)
+    (is-empty x4y0)
+    (is-empty x5y0)
     (is-empty x6y0)
     (is-empty x7y0)
     (is-empty x8y0)
-    ; x9y0 occupied by some obstruction
-    ; x10y0 occupied by some obstruction
-    ; x11y0 occupied by some obstruction
-    ; x12y0 occupied by some obstruction
-    ; x13y0 occupied by some obstruction
-    ; x14y0 occupied by some obstruction
-    ; x15y0 occupied by some obstruction
-    ; x16y0 occupied by some obstruction
-    ; x17y0 occupied by some obstruction
-    ; x18y0 occupied by some obstruction
-    ; x19y0 occupied by some obstruction
-    ; x0y1 occupied by some obstruction
-    ; x1y1 occupied by some obstruction
-    ; x2y1 occupied by some obstruction
-    ; x3y1 occupied by some obstruction
-    ; x4y1 occupied by some obstruction
+    (is-empty x9y0)
+    (is-empty x10y0)
+    (is-empty x11y0)
+    (is-empty x12y0)
+    (is-empty x13y0)
+    (is-empty x14y0)
+    (is-empty x15y0)
+    (is-empty x16y0)
+    (is-empty x17y0)
+    (is-empty x18y0)
+    (is-empty x19y0)
+    (is-empty x0y1)
+    (is-empty x1y1)
+    (is-empty x2y1)
+    (is-empty x3y1)
+    (is-empty x4y1)
     ; x5y1 occupied by some obstruction
-    (is-empty x6y1)
-    (is-empty x7y1)
-    (is-empty x8y1)
+    ; x6y1 occupied by some obstruction
+    ; x7y1 occupied by some obstruction
+    ; x8y1 occupied by some obstruction
     ; x9y1 occupied by some obstruction
-    (is-empty x10y1)
+    ; x10y1 occupied by some obstruction
     ; x11y1 occupied by some obstruction
-    (is-empty x12y1)
+    ; x12y1 occupied by some obstruction
     ; x13y1 occupied by some obstruction
-    (is-empty x14y1)
-    ; x15y1 occupied by some obstruction
+    ; x14y1 occupied by some obstruction
+    (is-empty x15y1)
     (is-empty x16y1)
-    ; x17y1 occupied by some obstruction
+    (is-empty x17y1)
     (is-empty x18y1)
-    ; x19y1 occupied by some obstruction
-    ; x0y2 occupied by some obstruction
-    ; x1y2 occupied by some obstruction
-    ; x2y2 occupied by some obstruction
-    ; x3y2 occupied by some obstruction
+    (is-empty x19y1)
+    (is-empty x0y2)
+    (is-empty x1y2)
+    (is-empty x2y2)
+    (is-empty x3y2)
     ; x4y2 occupied by some obstruction
-    ; x5y2 occupied by some obstruction
+    (is-empty x5y2)
     (is-empty x6y2)
     (is-empty x7y2)
     (is-empty x8y2)
@@ -2022,7 +2023,7 @@
     (is-empty x11y2)
     (is-empty x12y2)
     (is-empty x13y2)
-    (is-empty x14y2)
+    ; x14y2 occupied by some obstruction
     (is-empty x15y2)
     (is-empty x16y2)
     (is-empty x17y2)
@@ -2032,10 +2033,10 @@
     (is-empty x1y3)
     (is-empty x2y3)
     (is-empty x3y3)
-    (is-empty x4y3)
+    ; x4y3 occupied by some obstruction
     (is-empty x5y3)
     (is-empty x6y3)
-    ; x7y3 occupied by some obstruction
+    (is-empty x7y3)
     (is-empty x8y3)
     (is-empty x9y3)
     (is-empty x10y3)
@@ -2043,15 +2044,15 @@
     (is-empty x12y3)
     (is-empty x13y3)
     (is-empty x14y3)
-    (is-empty x15y3)
+    ; x15y3 occupied by some obstruction
     (is-empty x16y3)
     (is-empty x17y3)
     (is-empty x18y3)
     (is-empty x19y3)
     (is-empty x0y4)
-    ; x1y4 occupied by some obstruction
-    ; x2y4 occupied by some obstruction
-    (is-empty x3y4)
+    (is-empty x1y4)
+    (is-empty x2y4)
+    ; x3y4 occupied by some obstruction
     (is-empty x4y4)
     (is-empty x5y4)
     (is-empty x6y4)
@@ -2064,150 +2065,150 @@
     (is-empty x13y4)
     (is-empty x14y4)
     (is-empty x15y4)
-    (is-empty x16y4)
-    ; x17y4 occupied by some obstruction
-    ; x18y4 occupied by some obstruction
+    ; x16y4 occupied by some obstruction
+    (is-empty x17y4)
+    (is-empty x18y4)
     (is-empty x19y4)
     (is-empty x0y5)
-    ; x1y5 occupied by some obstruction
-    ; x2y5 occupied by some obstruction
-    (is-empty x3y5)
+    (is-empty x1y5)
+    (is-empty x2y5)
+    ; x3y5 occupied by some obstruction
     (is-empty x4y5)
     (is-empty x5y5)
     (is-empty x6y5)
     (is-empty x7y5)
-    ; x8y5 occupied by some obstruction
-    ; x9y5 occupied by some obstruction
-    ; x10y5 occupied by some obstruction
+    (is-empty x8y5)
+    (is-empty x9y5)
+    (is-empty x10y5)
     (is-empty x11y5)
     (is-empty x12y5)
     (is-empty x13y5)
-    ; x14y5 occupied by some obstruction
+    (is-empty x14y5)
     (is-empty x15y5)
-    (is-empty x16y5)
-    ; x17y5 occupied by some obstruction
-    ; x18y5 occupied by some obstruction
-    ; x19y5 occupied by some obstruction
+    ; x16y5 occupied by some obstruction
+    (is-empty x17y5)
+    (is-empty x18y5)
+    (is-empty x19y5)
     (is-empty x0y6)
     (is-empty x1y6)
     (is-empty x2y6)
-    (is-empty x3y6)
+    ; x3y6 occupied by some obstruction
     (is-empty x4y6)
     (is-empty x5y6)
     (is-empty x6y6)
-    ; x7y6 occupied by some obstruction
-    ; x8y6 occupied by some obstruction
-    ; x9y6 occupied by some obstruction
-    ; x10y6 occupied by some obstruction
-    ; x11y6 occupied by some obstruction
+    (is-empty x7y6)
+    (is-empty x8y6)
+    (is-empty x9y6)
+    (is-empty x10y6)
+    (is-empty x11y6)
     (is-empty x12y6)
     (is-empty x13y6)
     (is-empty x14y6)
     (is-empty x15y6)
-    (is-empty x16y6)
+    ; x16y6 occupied by some obstruction
     (is-empty x17y6)
     (is-empty x18y6)
     (is-empty x19y6)
     (is-empty x0y7)
-    ; x1y7 occupied by some obstruction
+    (is-empty x1y7)
     ; x2y7 occupied by some obstruction
     (is-empty x3y7)
     (is-empty x4y7)
     (is-empty x5y7)
-    ; x6y7 occupied by some obstruction
-    ; x7y7 occupied by some obstruction
-    ; x8y7 occupied by some obstruction
-    ; x9y7 occupied by some obstruction
-    ; x10y7 occupied by some obstruction
-    ; x11y7 occupied by some obstruction
-    ; x12y7 occupied by some obstruction
+    (is-empty x6y7)
+    (is-empty x7y7)
+    (is-empty x8y7)
+    (is-empty x9y7)
+    (is-empty x10y7)
+    (is-empty x11y7)
+    (is-empty x12y7)
     (is-empty x13y7)
     (is-empty x14y7)
     (is-empty x15y7)
-    (is-empty x16y7)
-    ; x17y7 occupied by some obstruction
-    ; x18y7 occupied by some obstruction
+    ; x16y7 occupied by some obstruction
+    (is-empty x17y7)
+    (is-empty x18y7)
     (is-empty x19y7)
     (is-empty x0y8)
-    ; x1y8 occupied by some obstruction
+    (is-empty x1y8)
     ; x2y8 occupied by some obstruction
     (is-empty x3y8)
-    ; x4y8 occupied by some obstruction
-    (is-empty x5y8)
-    ; x6y8 occupied by some obstruction
-    ; x7y8 occupied by some obstruction
-    ; x8y8 occupied by some obstruction
-    ; x9y8 occupied by some obstruction
-    ; x10y8 occupied by some obstruction
-    ; x11y8 occupied by some obstruction
-    ; x12y8 occupied by some obstruction
+    (is-empty x4y8)
+    ; x5y8 occupied by some obstruction
+    (is-empty x6y8)
+    (is-empty x7y8)
+    (is-empty x8y8)
+    (is-empty x9y8)
+    (is-empty x10y8)
+    (is-empty x11y8)
+    (is-empty x12y8)
     (is-empty x13y8)
     (is-empty x14y8)
     (is-empty x15y8)
-    (is-empty x16y8)
-    ; x17y8 occupied by some obstruction
-    ; x18y8 occupied by some obstruction
-    ; x19y8 occupied by some obstruction
+    ; x16y8 occupied by some obstruction
+    (is-empty x17y8)
+    (is-empty x18y8)
+    (is-empty x19y8)
     (is-empty x0y9)
-    (is-empty x1y9)
+    ; x1y9 occupied by some obstruction
     (is-empty x2y9)
     (is-empty x3y9)
     (is-empty x4y9)
-    (is-empty x5y9)
-    ; x6y9 occupied by some obstruction
-    ; x7y9 occupied by some obstruction
-    ; x8y9 occupied by some obstruction
-    ; x9y9 occupied by some obstruction
-    ; x10y9 occupied by some obstruction
-    ; x11y9 occupied by some obstruction
-    ; x12y9 occupied by some obstruction
+    ; x5y9 occupied by some obstruction
+    (is-empty x6y9)
+    (is-empty x7y9)
+    (is-empty x8y9)
+    (is-empty x9y9)
+    (is-empty x10y9)
+    (is-empty x11y9)
+    (is-empty x12y9)
     (is-empty x13y9)
     (is-empty x14y9)
-    ; x15y9 occupied by some obstruction
-    (is-empty x16y9)
+    (is-empty x15y9)
+    ; x16y9 occupied by some obstruction
     (is-empty x17y9)
     (is-empty x18y9)
     (is-empty x19y9)
     (is-empty x0y10)
     ; x1y10 occupied by some obstruction
-    ; x2y10 occupied by some obstruction
+    (is-empty x2y10)
     (is-empty x3y10)
-    (is-empty x4y10)
-    (is-empty x5y10)
+    ; x4y10 occupied by some obstruction
+    ; x5y10 occupied by some obstruction
     (is-empty x6y10)
-    ; x7y10 occupied by some obstruction
-    ; x8y10 occupied by some obstruction
-    ; x9y10 occupied by some obstruction
-    ; x10y10 occupied by some obstruction
-    ; x11y10 occupied by some obstruction
+    (is-empty x7y10)
+    (is-empty x8y10)
+    (is-empty x9y10)
+    (is-empty x10y10)
+    (is-empty x11y10)
     (is-empty x12y10)
     (is-empty x13y10)
-    (is-empty x14y10)
+    ; x14y10 occupied by some obstruction
     (is-empty x15y10)
-    (is-empty x16y10)
-    ; x17y10 occupied by some obstruction
-    ; x18y10 occupied by some obstruction
+    ; x16y10 occupied by some obstruction
+    (is-empty x17y10)
+    (is-empty x18y10)
     (is-empty x19y10)
     (is-empty x0y11)
     ; x1y11 occupied by some obstruction
     ; x2y11 occupied by some obstruction
-    (is-empty x3y11)
+    ; x3y11 occupied by some obstruction
     (is-empty x4y11)
-    (is-empty x5y11)
+    ; x5y11 occupied by some obstruction
     (is-empty x6y11)
     (is-empty x7y11)
     ; x8y11 occupied by some obstruction
-    ; x9y11 occupied by some obstruction
-    ; x10y11 occupied by some obstruction
-    (is-empty x11y11)
+    (is-empty x9y11)
+    (is-empty x10y11)
+    ; x11y11 occupied by some obstruction
     (is-empty x12y11)
     (is-empty x13y11)
-    (is-empty x14y11)
-    (is-empty x15y11)
+    ; x14y11 occupied by some obstruction
+    ; x15y11 occupied by some obstruction
     (is-empty x16y11)
-    ; x17y11 occupied by some obstruction
-    ; x18y11 occupied by some obstruction
-    ; x19y11 occupied by some obstruction
+    (is-empty x17y11)
+    (is-empty x18y11)
+    (is-empty x19y11)
     (is-empty x0y12)
     (is-empty x1y12)
     (is-empty x2y12)
@@ -2216,13 +2217,13 @@
     ; x5y12 occupied by some obstruction
     (is-empty x6y12)
     (is-empty x7y12)
-    (is-empty x8y12)
+    ; x8y12 occupied by some obstruction
     (is-empty x9y12)
     (is-empty x10y12)
-    (is-empty x11y12)
-    ; x12y12 occupied by some obstruction
+    ; x11y12 occupied by some obstruction
+    (is-empty x12y12)
     (is-empty x13y12)
-    (is-empty x14y12)
+    ; x14y12 occupied by some obstruction
     (is-empty x15y12)
     (is-empty x16y12)
     (is-empty x17y12)
@@ -2230,20 +2231,20 @@
     (is-empty x19y12)
     (is-empty x0y13)
     (is-empty x1y13)
-    ; x2y13 occupied by some obstruction
+    (is-empty x2y13)
     (is-empty x3y13)
     (is-empty x4y13)
-    (is-empty x5y13)
+    ; x5y13 occupied by some obstruction
     (is-empty x6y13)
     (is-empty x7y13)
-    (is-empty x8y13)
+    ; x8y13 occupied by some obstruction
     (is-empty x9y13)
     (is-empty x10y13)
-    (is-empty x11y13)
-    (is-empty x12y13)
-    (is-empty x13y13)
+    ; x11y13 occupied by some obstruction
+    ; x12y13 occupied by some obstruction
+    ; x13y13 occupied by some obstruction
     (is-empty x14y13)
-    ; x15y13 occupied by some obstruction
+    (is-empty x15y13)
     (is-empty x16y13)
     (is-empty x17y13)
     (is-empty x18y13)
@@ -2254,13 +2255,13 @@
     (is-empty x3y14)
     (is-empty x4y14)
     (is-empty x5y14)
-    (is-empty x6y14)
-    (is-empty x7y14)
+    ; x6y14 occupied by some obstruction
+    ; x7y14 occupied by some obstruction
     ; x8y14 occupied by some obstruction
     (is-empty x9y14)
     (is-empty x10y14)
-    (is-empty x11y14)
-    ; x12y14 occupied by some obstruction
+    ; x11y14 occupied by some obstruction
+    (is-empty x12y14)
     (is-empty x13y14)
     (is-empty x14y14)
     (is-empty x15y14)
@@ -2268,62 +2269,62 @@
     (is-empty x17y14)
     (is-empty x18y14)
     (is-empty x19y14)
-    ; x0y15 occupied by some obstruction
+    (is-empty x0y15)
     (is-empty x1y15)
     (is-empty x2y15)
     (is-empty x3y15)
-    ; x4y15 occupied by some obstruction
-    ; x5y15 occupied by some obstruction
-    ; x6y15 occupied by some obstruction
-    ; x7y15 occupied by some obstruction
+    (is-empty x4y15)
+    (is-empty x5y15)
+    (is-empty x6y15)
+    (is-empty x7y15)
     ; x8y15 occupied by some obstruction
-    ; x9y15 occupied by some obstruction
-    ; x10y15 occupied by some obstruction
-    (is-empty x11y15)
+    (is-empty x9y15)
+    (is-empty x10y15)
+    ; x11y15 occupied by some obstruction
     (is-empty x12y15)
     (is-empty x13y15)
-    ; x14y15 occupied by some obstruction
-    ; x15y15 occupied by some obstruction
+    (is-empty x14y15)
+    (is-empty x15y15)
     (is-empty x16y15)
-    ; x17y15 occupied by some obstruction
-    ; x18y15 occupied by some obstruction
-    ; x19y15 occupied by some obstruction
+    (is-empty x17y15)
+    (is-empty x18y15)
+    (is-empty x19y15)
     (is-empty x0y16)
     (is-empty x1y16)
     (is-empty x2y16)
     (is-empty x3y16)
     (is-empty x4y16)
-    ; x5y16 occupied by some obstruction
-    ; x6y16 occupied by some obstruction
+    (is-empty x5y16)
+    (is-empty x6y16)
     (is-empty x7y16)
-    (is-empty x8y16)
+    ; x8y16 occupied by some obstruction
     (is-empty x9y16)
     (is-empty x10y16)
-    (is-empty x11y16)
+    ; x11y16 occupied by some obstruction
     (is-empty x12y16)
     (is-empty x13y16)
     (is-empty x14y16)
-    ; x15y16 occupied by some obstruction
+    (is-empty x15y16)
     (is-empty x16y16)
     (is-empty x17y16)
     (is-empty x18y16)
     (is-empty x19y16)
     (is-empty x0y17)
-    ; x1y17 occupied by some obstruction
+    (is-empty x1y17)
     (is-empty x2y17)
     (is-empty x3y17)
     (is-empty x4y17)
     (is-empty x5y17)
-    ; x6y17 occupied by some obstruction
+    (is-empty x6y17)
     (is-empty x7y17)
-    (is-empty x8y17)
+    ; x8y17 occupied by some obstruction
     (is-empty x9y17)
     (is-empty x10y17)
-    (is-empty x11y17)
+    ; x11y17 occupied by some obstruction
     (is-empty x12y17)
     (is-empty x13y17)
     (is-empty x14y17)
-    ; x15y17 occupied by some obstruction
+    (is-empty x15y17)
     (is-empty x16y17)
     (is-empty x17y17)
     (is-empty x18y17)
@@ -2332,20 +2333,20 @@
     (is-empty x1y18)
     (is-empty x2y18)
     (is-empty x3y18)
-    ; x4y18 occupied by some obstruction
-    ; x5y18 occupied by some obstruction
-    ; x6y18 occupied by some obstruction
-    ; x7y18 occupied by some obstruction
+    (is-empty x4y18)
+    (is-empty x5y18)
+    (is-empty x6y18)
+    (is-empty x7y18)
     ; x8y18 occupied by some obstruction
-    ; x9y18 occupied by some obstruction
+    (is-empty x9y18)
     (is-empty x10y18)
-    (is-empty x11y18)
+    ; x11y18 occupied by some obstruction
     (is-empty x12y18)
     (is-empty x13y18)
     (is-empty x14y18)
-    ; x15y18 occupied by some obstruction
-    ; x16y18 occupied by some obstruction
-    ; x17y18 occupied by some obstruction
+    (is-empty x15y18)
+    (is-empty x16y18)
+    (is-empty x17y18)
     (is-empty x18y18)
     (is-empty x19y18)
     (is-empty x0y19)
@@ -2353,68 +2354,68 @@
     (is-empty x2y19)
     (is-empty x3y19)
     (is-empty x4y19)
-    ; x5y19 occupied by some obstruction
-    ; x6y19 occupied by some obstruction
-    ; x7y19 occupied by some obstruction
-    ; x8y19 occupied by some obstruction
+    (is-empty x5y19)
+    (is-empty x6y19)
+    (is-empty x7y19)
+    (is-empty x8y19)
     ; x9y19 occupied by some obstruction
-    (is-empty x10y19)
+    ; x10y19 occupied by some obstruction
     (is-empty x11y19)
     (is-empty x12y19)
     (is-empty x13y19)
     (is-empty x14y19)
-    ; x15y19 occupied by some obstruction
+    (is-empty x15y19)
     (is-empty x16y19)
     (is-empty x17y19)
     (is-empty x18y19)
     (is-empty x19y19)
 
-    (is-clean x0y0)
-    (is-clean x1y0)
-    (is-clean x2y0)
+    (is-dirty x0y0)
+    (is-dirty x1y0)
+    (is-dirty x2y0)
     (is-clean x3y0)
     (is-clean x4y0)
-    (is-clean x5y0)
-    (is-clean x6y0)
-    (is-clean x7y0)
-    (is-clean x8y0)
-    (is-clean x9y0)
-    (is-clean x10y0)
-    (is-clean x11y0)
-    (is-clean x12y0)
-    (is-clean x13y0)
-    (is-clean x14y0)
+    (is-dirty x5y0)
+    (is-dirty x6y0)
+    (is-dirty x7y0)
+    (is-dirty x8y0)
+    (is-dirty x9y0)
+    (is-dirty x10y0)
+    (is-dirty x11y0)
+    (is-dirty x12y0)
+    (is-dirty x13y0)
+    (is-dirty x14y0)
     (is-clean x15y0)
     (is-clean x16y0)
-    (is-clean x17y0)
-    (is-clean x18y0)
-    (is-clean x19y0)
-    (is-clean x0y1)
+    (is-dirty x17y0)
+    (is-dirty x18y0)
+    (is-dirty x19y0)
+    (is-dirty x0y1)
     (is-clean x1y1)
-    (is-clean x2y1)
-    (is-clean x3y1)
-    (is-clean x4y1)
+    (is-dirty x2y1)
+    (is-dirty x3y1)
+    (is-dirty x4y1)
     (is-clean x5y1)
-    (is-dirty x6y1)
-    (is-dirty x7y1)
-    (is-dirty x8y1)
+    (is-clean x6y1)
+    (is-clean x7y1)
+    (is-clean x8y1)
     (is-clean x9y1)
     (is-clean x10y1)
     (is-clean x11y1)
     (is-clean x12y1)
     (is-clean x13y1)
     (is-clean x14y1)
-    (is-clean x15y1)
-    (is-clean x16y1)
-    (is-clean x17y1)
+    (is-dirty x15y1)
+    (is-dirty x16y1)
+    (is-dirty x17y1)
     (is-clean x18y1)
-    (is-clean x19y1)
-    (is-clean x0y2)
-    (is-clean x1y2)
-    (is-clean x2y2)
-    (is-clean x3y2)
+    (is-dirty x19y1)
+    (is-dirty x0y2)
+    (is-dirty x1y2)
+    (is-dirty x2y2)
+    (is-dirty x3y2)
     (is-clean x4y2)
-    (is-clean x5y2)
+    (is-dirty x5y2)
     (is-dirty x6y2)
     (is-dirty x7y2)
     (is-dirty x8y2)
@@ -2423,20 +2424,20 @@
     (is-dirty x11y2)
     (is-dirty x12y2)
     (is-dirty x13y2)
-    (is-dirty x14y2)
+    (is-clean x14y2)
     (is-dirty x15y2)
     (is-dirty x16y2)
     (is-dirty x17y2)
     (is-dirty x18y2)
-    (is-clean x19y2)
+    (is-dirty x19y2)
     (is-dirty x0y3)
-    (is-dirty x1y3)
+    (is-clean x1y3)
     (is-dirty x2y3)
     (is-dirty x3y3)
-    (is-dirty x4y3)
+    (is-clean x4y3)
     (is-dirty x5y3)
     (is-dirty x6y3)
-    (is-clean x7y3)
+    (is-dirty x7y3)
     (is-dirty x8y3)
     (is-dirty x9y3)
     (is-dirty x10y3)
@@ -2444,172 +2445,172 @@
     (is-dirty x12y3)
     (is-dirty x13y3)
     (is-dirty x14y3)
-    (is-dirty x15y3)
+    (is-clean x15y3)
     (is-dirty x16y3)
     (is-dirty x17y3)
     (is-dirty x18y3)
     (is-dirty x19y3)
-    (is-clean x0y4)
-    (is-clean x1y4)
-    (is-clean x2y4)
-    (is-dirty x3y4)
+    (is-dirty x0y4)
+    (is-dirty x1y4)
+    (is-dirty x2y4)
+    (is-clean x3y4)
     (is-dirty x4y4)
-    (is-dirty x5y4)
+    (is-clean x5y4)
     (is-dirty x6y4)
-    (is-dirty x7y4)
-    (is-dirty x8y4)
+    (is-clean x7y4)
+    (is-clean x8y4)
     (is-dirty x9y4)
     (is-dirty x10y4)
-    (is-dirty x11y4)
+    (is-clean x11y4)
     (is-dirty x12y4)
     (is-dirty x13y4)
     (is-dirty x14y4)
     (is-dirty x15y4)
     (is-clean x16y4)
-    (is-clean x17y4)
-    (is-clean x18y4)
+    (is-dirty x17y4)
+    (is-dirty x18y4)
     (is-dirty x19y4)
     (is-dirty x0y5)
     (is-clean x1y5)
-    (is-clean x2y5)
-    (is-dirty x3y5)
+    (is-dirty x2y5)
+    (is-clean x3y5)
     (is-dirty x4y5)
     (is-dirty x5y5)
     (is-dirty x6y5)
     (is-dirty x7y5)
-    (is-clean x8y5)
-    (is-clean x9y5)
+    (is-dirty x8y5)
+    (is-dirty x9y5)
     (is-clean x10y5)
     (is-dirty x11y5)
     (is-dirty x12y5)
     (is-dirty x13y5)
-    (is-clean x14y5)
+    (is-dirty x14y5)
     (is-dirty x15y5)
-    (is-dirty x16y5)
-    (is-clean x17y5)
-    (is-clean x18y5)
-    (is-clean x19y5)
-    (is-dirty x0y6)
+    (is-clean x16y5)
+    (is-dirty x17y5)
+    (is-dirty x18y5)
+    (is-dirty x19y5)
+    (is-clean x0y6)
     (is-dirty x1y6)
     (is-dirty x2y6)
-    (is-dirty x3y6)
+    (is-clean x3y6)
     (is-dirty x4y6)
-    (is-dirty x5y6)
+    (is-clean x5y6)
     (is-dirty x6y6)
-    (is-clean x7y6)
+    (is-dirty x7y6)
     (is-clean x8y6)
     (is-clean x9y6)
-    (is-clean x10y6)
-    (is-clean x11y6)
-    (is-dirty x12y6)
+    (is-dirty x10y6)
+    (is-dirty x11y6)
+    (is-clean x12y6)
     (is-dirty x13y6)
     (is-dirty x14y6)
     (is-dirty x15y6)
-    (is-dirty x16y6)
+    (is-clean x16y6)
     (is-dirty x17y6)
     (is-dirty x18y6)
-    (is-dirty x19y6)
-    (is-clean x0y7)
-    (is-clean x1y7)
+    (is-clean x19y6)
+    (is-dirty x0y7)
+    (is-dirty x1y7)
     (is-clean x2y7)
     (is-dirty x3y7)
     (is-dirty x4y7)
     (is-dirty x5y7)
-    (is-clean x6y7)
-    (is-clean x7y7)
-    (is-clean x8y7)
-    (is-clean x9y7)
-    (is-clean x10y7)
-    (is-clean x11y7)
-    (is-clean x12y7)
-    (is-dirty x13y7)
+    (is-dirty x6y7)
+    (is-dirty x7y7)
+    (is-dirty x8y7)
+    (is-dirty x9y7)
+    (is-dirty x10y7)
+    (is-dirty x11y7)
+    (is-dirty x12y7)
+    (is-clean x13y7)
     (is-dirty x14y7)
     (is-dirty x15y7)
     (is-clean x16y7)
     (is-clean x17y7)
-    (is-clean x18y7)
-    (is-dirty x19y7)
+    (is-dirty x18y7)
+    (is-clean x19y7)
     (is-dirty x0y8)
-    (is-clean x1y8)
+    (is-dirty x1y8)
     (is-clean x2y8)
     (is-dirty x3y8)
-    (is-clean x4y8)
-    (is-dirty x5y8)
-    (is-clean x6y8)
-    (is-clean x7y8)
-    (is-clean x8y8)
-    (is-clean x9y8)
+    (is-dirty x4y8)
+    (is-clean x5y8)
+    (is-dirty x6y8)
+    (is-dirty x7y8)
+    (is-dirty x8y8)
+    (is-dirty x9y8)
     (is-clean x10y8)
-    (is-clean x11y8)
-    (is-clean x12y8)
+    (is-dirty x11y8)
+    (is-dirty x12y8)
     (is-dirty x13y8)
-    (is-dirty x14y8)
+    (is-clean x14y8)
     (is-dirty x15y8)
-    (is-dirty x16y8)
-    (is-clean x17y8)
-    (is-clean x18y8)
-    (is-clean x19y8)
+    (is-clean x16y8)
+    (is-dirty x17y8)
+    (is-dirty x18y8)
+    (is-dirty x19y8)
     (is-dirty x0y9)
-    (is-dirty x1y9)
+    (is-clean x1y9)
     (is-dirty x2y9)
-    (is-dirty x3y9)
+    (is-clean x3y9)
     (is-dirty x4y9)
-    (is-dirty x5y9)
-    (is-clean x6y9)
-    (is-clean x7y9)
+    (is-clean x5y9)
+    (is-dirty x6y9)
+    (is-dirty x7y9)
     (is-clean x8y9)
-    (is-clean x9y9)
-    (is-clean x10y9)
-    (is-clean x11y9)
+    (is-dirty x9y9)
+    (is-dirty x10y9)
+    (is-dirty x11y9)
     (is-clean x12y9)
     (is-dirty x13y9)
     (is-dirty x14y9)
-    (is-clean x15y9)
-    (is-dirty x16y9)
+    (is-dirty x15y9)
+    (is-clean x16y9)
     (is-dirty x17y9)
     (is-dirty x18y9)
     (is-dirty x19y9)
-    (is-clean x0y10)
+    (is-dirty x0y10)
     (is-clean x1y10)
-    (is-clean x2y10)
+    (is-dirty x2y10)
     (is-dirty x3y10)
-    (is-dirty x4y10)
-    (is-dirty x5y10)
+    (is-clean x4y10)
+    (is-clean x5y10)
     (is-dirty x6y10)
-    (is-clean x7y10)
-    (is-clean x8y10)
-    (is-clean x9y10)
-    (is-clean x10y10)
-    (is-clean x11y10)
+    (is-dirty x7y10)
+    (is-dirty x8y10)
+    (is-dirty x9y10)
+    (is-dirty x10y10)
+    (is-dirty x11y10)
     (is-dirty x12y10)
-    (is-dirty x13y10)
-    (is-dirty x14y10)
+    (is-clean x13y10)
+    (is-clean x14y10)
     (is-dirty x15y10)
     (is-clean x16y10)
-    (is-clean x17y10)
-    (is-clean x18y10)
+    (is-dirty x17y10)
+    (is-dirty x18y10)
     (is-dirty x19y10)
     (is-dirty x0y11)
     (is-clean x1y11)
     (is-clean x2y11)
-    (is-dirty x3y11)
+    (is-clean x3y11)
     (is-dirty x4y11)
-    (is-dirty x5y11)
+    (is-clean x5y11)
     (is-dirty x6y11)
-    (is-dirty x7y11)
+    (is-clean x7y11)
     (is-clean x8y11)
-    (is-clean x9y11)
-    (is-clean x10y11)
-    (is-dirty x11y11)
+    (is-dirty x9y11)
+    (is-dirty x10y11)
+    (is-clean x11y11)
     (is-dirty x12y11)
     (is-dirty x13y11)
-    (is-dirty x14y11)
-    (is-dirty x15y11)
+    (is-clean x14y11)
+    (is-clean x15y11)
     (is-dirty x16y11)
-    (is-clean x17y11)
+    (is-dirty x17y11)
     (is-clean x18y11)
-    (is-clean x19y11)
-    (is-clean x0y12)
+    (is-dirty x19y11)
+    (is-dirty x0y12)
     (is-dirty x1y12)
     (is-dirty x2y12)
     (is-dirty x3y12)
@@ -2617,112 +2618,112 @@
     (is-clean x5y12)
     (is-dirty x6y12)
     (is-dirty x7y12)
-    (is-dirty x8y12)
+    (is-clean x8y12)
     (is-dirty x9y12)
     (is-dirty x10y12)
-    (is-dirty x11y12)
-    (is-clean x12y12)
+    (is-clean x11y12)
+    (is-dirty x12y12)
     (is-dirty x13y12)
-    (is-dirty x14y12)
+    (is-clean x14y12)
     (is-dirty x15y12)
     (is-dirty x16y12)
     (is-dirty x17y12)
     (is-dirty x18y12)
-    (is-clean x19y12)
+    (is-dirty x19y12)
     (is-clean x0y13)
     (is-dirty x1y13)
     (is-clean x2y13)
     (is-dirty x3y13)
     (is-dirty x4y13)
-    (is-dirty x5y13)
+    (is-clean x5y13)
     (is-dirty x6y13)
     (is-dirty x7y13)
-    (is-dirty x8y13)
+    (is-clean x8y13)
     (is-dirty x9y13)
     (is-dirty x10y13)
-    (is-dirty x11y13)
-    (is-dirty x12y13)
-    (is-dirty x13y13)
+    (is-clean x11y13)
+    (is-clean x12y13)
+    (is-clean x13y13)
     (is-dirty x14y13)
-    (is-clean x15y13)
+    (is-dirty x15y13)
     (is-dirty x16y13)
     (is-dirty x17y13)
-    (is-dirty x18y13)
-    (is-clean x19y13)
-    (is-clean x0y14)
+    (is-clean x18y13)
+    (is-dirty x19y13)
+    (is-dirty x0y14)
     (is-dirty x1y14)
     (is-dirty x2y14)
     (is-dirty x3y14)
     (is-dirty x4y14)
     (is-dirty x5y14)
-    (is-dirty x6y14)
-    (is-dirty x7y14)
+    (is-clean x6y14)
+    (is-clean x7y14)
     (is-clean x8y14)
     (is-dirty x9y14)
     (is-dirty x10y14)
-    (is-dirty x11y14)
-    (is-clean x12y14)
-    (is-dirty x13y14)
+    (is-clean x11y14)
+    (is-dirty x12y14)
+    (is-clean x13y14)
     (is-dirty x14y14)
     (is-dirty x15y14)
     (is-dirty x16y14)
     (is-dirty x17y14)
     (is-dirty x18y14)
-    (is-clean x19y14)
-    (is-clean x0y15)
+    (is-dirty x19y14)
+    (is-dirty x0y15)
     (is-dirty x1y15)
-    (is-dirty x2y15)
+    (is-clean x2y15)
     (is-dirty x3y15)
-    (is-clean x4y15)
-    (is-clean x5y15)
-    (is-clean x6y15)
-    (is-clean x7y15)
+    (is-dirty x4y15)
+    (is-dirty x5y15)
+    (is-dirty x6y15)
+    (is-dirty x7y15)
     (is-clean x8y15)
-    (is-clean x9y15)
-    (is-clean x10y15)
-    (is-dirty x11y15)
+    (is-dirty x9y15)
+    (is-dirty x10y15)
+    (is-clean x11y15)
     (is-dirty x12y15)
     (is-dirty x13y15)
-    (is-clean x14y15)
+    (is-dirty x14y15)
     (is-clean x15y15)
     (is-dirty x16y15)
     (is-clean x17y15)
-    (is-clean x18y15)
-    (is-clean x19y15)
-    (is-clean x0y16)
-    (is-dirty x1y16)
+    (is-dirty x18y15)
+    (is-dirty x19y15)
+    (is-dirty x0y16)
+    (is-clean x1y16)
     (is-dirty x2y16)
     (is-dirty x3y16)
     (is-dirty x4y16)
     (is-clean x5y16)
     (is-clean x6y16)
     (is-dirty x7y16)
-    (is-dirty x8y16)
+    (is-clean x8y16)
     (is-dirty x9y16)
     (is-dirty x10y16)
-    (is-dirty x11y16)
+    (is-clean x11y16)
     (is-dirty x12y16)
     (is-dirty x13y16)
-    (is-dirty x14y16)
-    (is-clean x15y16)
-    (is-dirty x16y16)
+    (is-clean x14y16)
+    (is-dirty x15y16)
+    (is-clean x16y16)
     (is-dirty x17y16)
     (is-dirty x18y16)
     (is-dirty x19y16)
     (is-dirty x0y17)
     (is-clean x1y17)
     (is-dirty x2y17)
-    (is-dirty x3y17)
+    (is-clean x3y17)
     (is-dirty x4y17)
     (is-dirty x5y17)
-    (is-clean x6y17)
-    (is-clean x7y17)
-    (is-dirty x8y17)
+    (is-dirty x6y17)
+    (is-dirty x7y17)
+    (is-clean x8y17)
     (is-dirty x9y17)
     (is-dirty x10y17)
-    (is-dirty x11y17)
+    (is-clean x11y17)
     (is-dirty x12y17)
-    (is-dirty x13y17)
+    (is-clean x13y17)
     (is-dirty x14y17)
     (is-clean x15y17)
     (is-dirty x16y17)
@@ -2734,145 +2735,174 @@
     (is-dirty x2y18)
     (is-dirty x3y18)
     (is-clean x4y18)
-    (is-clean x5y18)
-    (is-clean x6y18)
-    (is-clean x7y18)
+    (is-dirty x5y18)
+    (is-dirty x6y18)
+    (is-dirty x7y18)
     (is-clean x8y18)
     (is-clean x9y18)
     (is-dirty x10y18)
-    (is-dirty x11y18)
+    (is-clean x11y18)
     (is-dirty x12y18)
     (is-dirty x13y18)
     (is-dirty x14y18)
-    (is-clean x15y18)
-    (is-clean x16y18)
+    (is-dirty x15y18)
+    (is-dirty x16y18)
     (is-clean x17y18)
     (is-dirty x18y18)
     (is-dirty x19y18)
-    (is-clean x0y19)
+    (is-dirty x0y19)
     (is-dirty x1y19)
     (is-dirty x2y19)
-    (is-dirty x3y19)
-    (is-clean x4y19)
+    (is-clean x3y19)
+    (is-dirty x4y19)
     (is-clean x5y19)
-    (is-clean x6y19)
-    (is-clean x7y19)
-    (is-clean x8y19)
+    (is-dirty x6y19)
+    (is-dirty x7y19)
+    (is-dirty x8y19)
     (is-clean x9y19)
-    (is-dirty x10y19)
+    (is-clean x10y19)
     (is-dirty x11y19)
     (is-dirty x12y19)
     (is-dirty x13y19)
-    (is-dirty x14y19)
-    (is-clean x15y19)
-    (is-clean x16y19)
+    (is-clean x14y19)
+    (is-dirty x15y19)
+    (is-dirty x16y19)
     (is-dirty x17y19)
     (is-dirty x18y19)
-    (is-clean x19y19)
+    (is-dirty x19y19)
 
-    (is-trashplace x6y0)
-    (is-trashplace x7y0)
-    (is-trashplace x8y0)
-    (at roomba1 x6y1)
+    (is-charger x3y0)
+    (is-charger x4y0)
+    (is-charger x15y0)
+    (is-charger x16y0)
+    (is-charger x1y1)
+    (is-charger x18y1)
+    (at roomba1 x5y2)
     (=(battery-amount roomba1) 100)
     (=(trash-amount roomba1) 0)
 
-    (at roomba2 x7y1)
+    (at roomba2 x6y2)
     (=(battery-amount roomba2) 100)
     (=(trash-amount roomba2) 0)
 
-    (at roomba3 x8y1)
+    (at roomba3 x7y2)
     (=(battery-amount roomba3) 100)
     (=(trash-amount roomba3) 0)
 
-    (is-charger x10y1)
-    (is-charger x12y1)
-    (is-charger x14y1)
-    (is-charger x16y1)
-    (is-charger x18y1)
-    (is-trashplace x19y2)
-    (at roomba4 x0y3)
+    (at roomba4 x8y2)
     (=(battery-amount roomba4) 100)
     (=(trash-amount roomba4) 0)
 
-    (at roomba5 x19y3)
+    (at roomba5 x9y2)
     (=(battery-amount roomba5) 100)
     (=(trash-amount roomba5) 0)
 
-    (is-trashplace x0y4)
-    (is-trashplace x16y4)
-    (at roomba6 x0y5)
+    (at roomba6 x10y2)
     (=(battery-amount roomba6) 100)
     (=(trash-amount roomba6) 0)
 
-    (is-trashplace x0y7)
-    (is-trashplace x16y7)
-    (at roomba7 x0y9)
+    (at roomba7 x11y2)
     (=(battery-amount roomba7) 100)
     (=(trash-amount roomba7) 0)
 
-    (at roomba8 x19y9)
+    (at roomba8 x12y2)
     (=(battery-amount roomba8) 100)
     (=(trash-amount roomba8) 0)
 
-    (is-trashplace x0y10)
-    (is-trashplace x16y10)
-    (is-charger x0y12)
-    (at roomba9 x1y12)
+    (at roomba9 x13y2)
     (=(battery-amount roomba9) 100)
     (=(trash-amount roomba9) 0)
 
-    (at roomba10 x18y12)
+    (at roomba10 x16y2)
     (=(battery-amount roomba10) 100)
     (=(trash-amount roomba10) 0)
 
-    (is-charger x19y12)
-    (is-charger x0y13)
-    (at roomba11 x1y13)
+    (is-charger x1y3)
+    (at roomba11 x17y3)
     (=(battery-amount roomba11) 100)
     (=(trash-amount roomba11) 0)
 
-    (at roomba12 x18y13)
+    (is-trashplace x5y4)
+    (is-charger x7y4)
+    (is-charger x8y4)
+    (is-charger x11y4)
+    (is-charger x1y5)
+    (is-trashplace x10y5)
+    (is-charger x0y6)
+    (is-trashplace x5y6)
+    (is-trashplace x8y6)
+    (is-trashplace x9y6)
+    (is-trashplace x12y6)
+    (is-charger x19y6)
+    (is-trashplace x13y7)
+    (is-charger x17y7)
+    (is-charger x19y7)
+    (is-charger x10y8)
+    (is-trashplace x14y8)
+    (is-trashplace x3y9)
+    (is-charger x8y9)
+    (is-charger x12y9)
+    (is-trashplace x13y10)
+    (is-charger x7y11)
+    (is-charger x18y11)
+    (is-trashplace x0y13)
+    (is-trashplace x2y13)
+    (at roomba12 x16y13)
     (=(battery-amount roomba12) 100)
     (=(trash-amount roomba12) 0)
 
-    (is-charger x19y13)
-    (is-charger x0y14)
-    (at roomba13 x1y14)
+    (is-trashplace x18y13)
+    (is-trashplace x13y14)
+    (at roomba13 x19y14)
     (=(battery-amount roomba13) 100)
     (=(trash-amount roomba13) 0)
 
-    (at roomba14 x9y14)
+    (is-charger x2y15)
+    (is-trashplace x15y15)
+    (is-trashplace x17y15)
+    (at roomba14 x19y15)
     (=(battery-amount roomba14) 100)
     (=(trash-amount roomba14) 0)
 
-    (at roomba15 x10y14)
+    (is-charger x1y16)
+    (is-charger x5y16)
+    (is-trashplace x6y16)
+    (is-charger x14y16)
+    (is-trashplace x16y16)
+    (at roomba15 x19y16)
     (=(battery-amount roomba15) 100)
     (=(trash-amount roomba15) 0)
 
-    (at roomba16 x18y14)
+    (is-charger x1y17)
+    (is-trashplace x3y17)
+    (is-trashplace x13y17)
+    (is-charger x15y17)
+    (at roomba16 x17y17)
     (=(battery-amount roomba16) 100)
     (=(trash-amount roomba16) 0)
 
-    (is-charger x19y14)
-    (is-charger x0y16)
-    (is-trashplace x7y17)
-    (is-trashplace x0y19)
-    (at roomba17 x3y19)
+    (at roomba17 x19y17)
     (=(battery-amount roomba17) 100)
     (=(trash-amount roomba17) 0)
 
-    (is-charger x4y19)
-    (at roomba18 x10y19)
+    (is-trashplace x4y18)
+    (is-trashplace x9y18)
+    (is-trashplace x17y18)
+    (at roomba18 x19y18)
     (=(battery-amount roomba18) 100)
     (=(trash-amount roomba18) 0)
 
-    (is-trashplace x16y19)
-    (at roomba19 x18y19)
+    (at roomba19 x0y19)
     (=(battery-amount roomba19) 100)
     (=(trash-amount roomba19) 0)
 
-    (is-charger x19y19)
+    (is-charger x3y19)
+    (is-trashplace x5y19)
+    (is-charger x14y19)
+    (at roomba20 x19y19)
+    (=(battery-amount roomba20) 100)
+    (=(trash-amount roomba20) 0)
+
 
     (= (steps) 0)
   )
@@ -3286,4 +3316,4 @@
 (:metric minimize
     (steps)
   )
-)
+) 
