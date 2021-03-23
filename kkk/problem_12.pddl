@@ -1,12 +1,13 @@
-;|  O|   |   |   |   |   
-;|   |  O|   |   |  O|  T
-;|   |   |   |   |   |  O
-;|  T|  O|  C|  O|   |   
-;|  O|  O|  O|  O|   |  O
+;|  O|  O|  O|  O|  O|  T
+;|   |   |   |  T|   |   
+;|  C|  O|  O|  O|  O|  O
+;|   |   |   |  T|   |   
+;|  O|  O|  O|  O|  O|  C
 ;|  X|   |   |   |   |   
-; A more difficult maze.
+; A simple path/maze.
+; Solvable.
 
-(define (problem roomba_problem1)
+(define (problem roomba_problem12)
   (:domain roomba)
 
   (:objects
@@ -182,31 +183,31 @@
     ; x1y1 occupied by some obstruction
     ; x2y1 occupied by some obstruction
     ; x3y1 occupied by some obstruction
-    (is-empty x4y1)
-    ; x5y1 occupied by some obstruction
+    ; x4y1 occupied by some obstruction
+    (is-empty x5y1)
     (is-empty x0y2)
-    ; x1y2 occupied by some obstruction
+    (is-empty x1y2)
     (is-empty x2y2)
-    ; x3y2 occupied by some obstruction
+    (is-empty x3y2)
     (is-empty x4y2)
     (is-empty x5y2)
     (is-empty x0y3)
-    (is-empty x1y3)
-    (is-empty x2y3)
-    (is-empty x3y3)
-    (is-empty x4y3)
+    ; x1y3 occupied by some obstruction
+    ; x2y3 occupied by some obstruction
+    ; x3y3 occupied by some obstruction
+    ; x4y3 occupied by some obstruction
     ; x5y3 occupied by some obstruction
     (is-empty x0y4)
-    ; x1y4 occupied by some obstruction
+    (is-empty x1y4)
     (is-empty x2y4)
     (is-empty x3y4)
-    ; x4y4 occupied by some obstruction
+    (is-empty x4y4)
     (is-empty x5y4)
     ; x0y5 occupied by some obstruction
-    (is-empty x1y5)
-    (is-empty x2y5)
-    (is-empty x3y5)
-    (is-empty x4y5)
+    ; x1y5 occupied by some obstruction
+    ; x2y5 occupied by some obstruction
+    ; x3y5 occupied by some obstruction
+    ; x4y5 occupied by some obstruction
     (is-empty x5y5)
 
     (is-dirty x0y0)
@@ -219,40 +220,42 @@
     (is-clean x1y1)
     (is-clean x2y1)
     (is-clean x3y1)
-    (is-dirty x4y1)
+    (is-clean x4y1)
     (is-clean x5y1)
-    (is-clean x0y2)
-    (is-clean x1y2)
-    (is-clean x2y2)
+    (is-dirty x0y2)
+    (is-dirty x1y2)
+    (is-dirty x2y2)
     (is-clean x3y2)
     (is-dirty x4y2)
     (is-dirty x5y2)
-    (is-dirty x0y3)
-    (is-dirty x1y3)
-    (is-dirty x2y3)
-    (is-dirty x3y3)
-    (is-dirty x4y3)
+    (is-clean x0y3)
+    (is-clean x1y3)
+    (is-clean x2y3)
+    (is-clean x3y3)
+    (is-clean x4y3)
     (is-clean x5y3)
     (is-dirty x0y4)
-    (is-clean x1y4)
+    (is-dirty x1y4)
     (is-dirty x2y4)
-    (is-dirty x3y4)
-    (is-clean x4y4)
-    (is-clean x5y4)
+    (is-clean x3y4)
+    (is-dirty x4y4)
+    (is-dirty x5y4)
     (is-clean x0y5)
-    (is-dirty x1y5)
-    (is-dirty x2y5)
-    (is-dirty x3y5)
-    (is-dirty x4y5)
-    (is-dirty x5y5)
+    (is-clean x1y5)
+    (is-clean x2y5)
+    (is-clean x3y5)
+    (is-clean x4y5)
+    (is-clean x5y5)
 
     (at roomba1 x0y0)
     (=(battery-amount roomba1) 100)
     (=(trash-amount roomba1) 0)
 
-    (is-trashplace x0y2)
-    (is-charger x2y2)
-    (is-trashplace x5y4)
+    (is-charger x5y1)
+    (is-trashplace x3y2)
+    (is-charger x0y3)
+    (is-trashplace x3y4)
+    (is-trashplace x5y5)
 
     (= (steps) 0)
   )
