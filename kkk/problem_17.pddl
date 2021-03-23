@@ -3,6 +3,7 @@
 ;|  X|   |   |  O|   |   |   |  O|   |   
 ; 3 Roombas racing! Very fun.
 ; Guess who wins!
+; Has to return to start
 
 (define (problem roomba_problem1)
   (:domain roomba)
@@ -253,6 +254,9 @@
       (is-clean x7y2)
       (is-clean x8y2)
       (is-clean x9y2)
+      (at roomba1 x0y0)
+      (at roomba2 x0y1)
+      (at roomba3 x0y2)
     )
   )
 
