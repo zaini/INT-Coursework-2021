@@ -1,6 +1,7 @@
 ;|   |   |  T
 ;|   |  O|   
 ;|  X|   |  C
+;Simple problem
 
 (define (problem roomba_problem1)
 	(:domain roomba)

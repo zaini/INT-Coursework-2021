@@ -1,9 +1,9 @@
-;|  O|  T|  O
-;|  C|  X|  T
-;|  O|  C|  O
-; Nothing to do, but it can move. Already clean. In goal state.
+;|   |  O|   
+;|  O|  X|  O
+;|   |  O|   
+; Unsolvable. Roomba cannot move and clean the corners.
 
-(define (problem roomba_problem2)
+(define (problem roomba_problem3)
   (:domain roomba)
 
   (:objects
@@ -46,34 +46,29 @@
     (has-path x2y2 x1y2)
     (has-path x2y2 x2y1)
 
-    ; x0y0 occupied by some obstruction
-    (is-empty x1y0)
-    ; x2y0 occupied by some obstruction
-    (is-empty x0y1)
+    (is-empty x0y0)
+    ; x1y0 occupied by some obstruction
+    (is-empty x2y0)
+    ; x0y1 occupied by some obstruction
     (is-empty x1y1)
-    (is-empty x2y1)
-    ; x0y2 occupied by some obstruction
-    (is-empty x1y2)
-    ; x2y2 occupied by some obstruction
+    ; x2y1 occupied by some obstruction
+    (is-empty x0y2)
+    ; x1y2 occupied by some obstruction
+    (is-empty x2y2)
 
-    (is-clean x0y0)
+    (is-dirty x0y0)
     (is-clean x1y0)
-    (is-clean x2y0)
+    (is-dirty x2y0)
     (is-clean x0y1)
     (is-dirty x1y1)
     (is-clean x2y1)
-    (is-clean x0y2)
+    (is-dirty x0y2)
     (is-clean x1y2)
-    (is-clean x2y2)
+    (is-dirty x2y2)
 
-    (is-charger x1y0)
-    (is-charger x0y1)
     (at roomba1 x1y1)
     (=(battery-amount roomba1) 100)
     (=(trash-amount roomba1) 0)
-
-    (is-trashplace x2y1)
-    (is-trashplace x1y2)
 
     (= (steps) 0)
   )
