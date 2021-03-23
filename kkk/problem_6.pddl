@@ -6,7 +6,7 @@
 ; Has to deposit trash before cleaning.
 ; Multiagent due to 2 roombas.
 
-(define (problem roomba_problem1)
+(define (problem roomba_problem6)
   (:domain roomba)
 
   (:objects
