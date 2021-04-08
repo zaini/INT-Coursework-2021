@@ -4,7 +4,7 @@
 ;|   |   |  O|   |   
 ;|  X|   |  O|   |  T
 
-(define (problem roomba_problem1)
+(define (problem roomba_problem18)
   (:domain roomba)
 
   (:objects

@@ -6,7 +6,7 @@
 ; 5x5 room where the roombas must work together in the same room to clean it
 ; Unsolvable with just 1 roomba
 
-(define (problem roomba_problem1)
+(define (problem roomba_problem20)
   (:domain roomba)
 
   (:objects

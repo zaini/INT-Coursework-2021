@@ -10,7 +10,7 @@
 ;|  O|  O|  O|  O|   |  O|   |   |  O|  O
 ; Massive house. 10x10
 
-(define (problem roomba_problem1)
+(define (problem roomba_problem16)
 	(:domain roomba)
 
 	(:objects

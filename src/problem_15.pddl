@@ -6,7 +6,7 @@
 ; standard 5x5 problem where roombas need to get charge before being able to clean the room
 ; multi agent problem
 
-(define (problem roomba_problem1)
+(define (problem roomba_problem15)
   (:domain roomba)
 
   (:objects

@@ -5,7 +5,7 @@
 ;|  X|   |  O|   |  X
 ; they solve it individually
 
-(define (problem roomba_problem1)
+(define (problem roomba_problem19)
   (:domain roomba)
 
   (:objects
